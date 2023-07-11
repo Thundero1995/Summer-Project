@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>2</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">81cb77da47732110bfd33e58c26d43a5</sp_column>
+        <sp_widget display_value="link">aecffd6f47632110bfd33e58c26d437c</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-05 16:07:08</sys_created_on>
+        <sys_id>c1cb77da47732110bfd33e58c26d43a7</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="City Hub" source="x_1070059_city_hub">dc39f31a47732110bfd33e58c26d4321</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="City Hub">dc39f31a47732110bfd33e58c26d4321</sys_scope>
+        <sys_update_name>sp_instance_c1cb77da47732110bfd33e58c26d43a7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-05 18:13:21</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"href": {
+		"value": "https://dev131714.service-now.com/ch/?id=life_events",
+		"displayValue": "https://dev131714.service-now.com/ch/?id=life_events"
+	},
+	"button_text": {
+		"value": "Life Events",
+		"displayValue": "Life Events"
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=c1cb77da47732110bfd33e58c26d43a7"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="City Hub">dc39f31a47732110bfd33e58c26d4321</application>
+        <file_path/>
+        <instance_id>f73e9ac9db55915842b321c405961988</instance_id>
+        <instance_name>dev131714</instance_name>
+        <name>sp_instance_c1cb77da47732110bfd33e58c26d43a7</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance"&gt;&lt;sp_instance action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;glyph/&gt;&lt;id/&gt;&lt;order&gt;2&lt;/order&gt;&lt;roles/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="1"&gt;81cb77da47732110bfd33e58c26d43a5&lt;/sp_column&gt;&lt;sp_widget display_value="link"&gt;aecffd6f47632110bfd33e58c26d437c&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-07-05 16:07:08&lt;/sys_created_on&gt;&lt;sys_id&gt;c1cb77da47732110bfd33e58c26d43a7&lt;/sys_id&gt;&lt;sys_mod_count&gt;7&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="City Hub" source="x_1070059_city_hub"&gt;dc39f31a47732110bfd33e58c26d4321&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="City Hub"&gt;dc39f31a47732110bfd33e58c26d4321&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_c1cb77da47732110bfd33e58c26d43a7&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-07-05 18:13:21&lt;/sys_updated_on&gt;&lt;title/&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"href": {
+		"value": "https://dev131714.service-now.com/ch/?id=life_events",
+		"displayValue": "https://dev131714.service-now.com/ch/?id=life_events"
+	},
+	"button_text": {
+		"value": "Life Events",
+		"displayValue": "Life Events"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=c1cb77da47732110bfd33e58c26d43a7"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>79617921</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>1039f31a47732110bfd33e58c26d4324</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-05 18:13:21</sys_created_on>
+        <sys_id>31a89c2a47f32110bfd33e58c26d43f4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>189274243ff0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-05 18:13:21</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>79a89c2a52f321109381a99502ec87f3</update_guid>
+        <update_guid_history>79a89c2a52f321109381a99502ec87f3:79617921,1a68982aa0f32110e70453e4b39e4087:1607730304,57f750e6b5f32110d9d35bba586f7e2a:79617921,16d610e6d6f321101e035bf122171ce5:1607730304,a8d6dca624f321109b2cffffaedef5f4:79617921,cfc6dca68ef32110b41ba275cc0c9f33:1607730304,c43654a6d2f321101a17b3d9ba94c965:79617921,49cb77da5373211070e4f554a484b7a8:1607730304</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">e0b2e31f47332110bfd33e58c26d437d</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-08 16:51:31</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>4f1ad848a8a8482f86690e17c266d839</sys_id>
+        <sys_metadata>c1cb77da47732110bfd33e58c26d43a7</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="City Hub" source="x_1070059_city_hub">dc39f31a47732110bfd33e58c26d4321</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="City Hub">dc39f31a47732110bfd33e58c26d4321</sys_scope>
+        <sys_scope_delete display_value="">47c107940aeb4f4082f8795c5ddd9000</sys_scope_delete>
+        <sys_update_name>sp_instance_c1cb77da47732110bfd33e58c26d43a7</sys_update_name>
+        <sys_update_version display_value="sp_instance_c1cb77da47732110bfd33e58c26d43a7">31a89c2a47f32110bfd33e58c26d43f4</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-08 16:51:31</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

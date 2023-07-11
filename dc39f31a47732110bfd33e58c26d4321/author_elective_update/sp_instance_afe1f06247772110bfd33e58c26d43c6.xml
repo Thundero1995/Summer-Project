@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>2</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="2">09cb77da47732110bfd33e58c26d43c9</sp_column>
+        <sp_widget display_value="ch top rated">60b17caa47372110bfd33e58c26d4391</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-05 20:03:48</sys_created_on>
+        <sys_id>afe1f06247772110bfd33e58c26d43c6</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="City Hub" source="x_1070059_city_hub">dc39f31a47732110bfd33e58c26d4321</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="City Hub">dc39f31a47732110bfd33e58c26d4321</sys_scope>
+        <sys_update_name>sp_instance_afe1f06247772110bfd33e58c26d43c6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-05 20:04:46</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"max_number": {
+		"value": 5,
+		"displayValue": "5"
+	},
+	"kb_category": {
+		"value": "",
+		"displayValue": ""
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=afe1f06247772110bfd33e58c26d43c6"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="City Hub">dc39f31a47732110bfd33e58c26d4321</application>
+        <file_path/>
+        <instance_id>f73e9ac9db55915842b321c405961988</instance_id>
+        <instance_name>dev131714</instance_name>
+        <name>sp_instance_afe1f06247772110bfd33e58c26d43c6</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance"&gt;&lt;sp_instance action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;glyph/&gt;&lt;id/&gt;&lt;order&gt;2&lt;/order&gt;&lt;roles/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="2"&gt;09cb77da47732110bfd33e58c26d43c9&lt;/sp_column&gt;&lt;sp_widget display_value="ch top rated"&gt;60b17caa47372110bfd33e58c26d4391&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-07-05 20:03:48&lt;/sys_created_on&gt;&lt;sys_id&gt;afe1f06247772110bfd33e58c26d43c6&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="City Hub" source="x_1070059_city_hub"&gt;dc39f31a47732110bfd33e58c26d4321&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="City Hub"&gt;dc39f31a47732110bfd33e58c26d4321&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_afe1f06247772110bfd33e58c26d43c6&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-07-05 20:04:46&lt;/sys_updated_on&gt;&lt;title/&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"max_number": {
+		"value": 5,
+		"displayValue": "5"
+	},
+	"kb_category": {
+		"value": "",
+		"displayValue": ""
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=afe1f06247772110bfd33e58c26d43c6"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1637528386</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>1039f31a47732110bfd33e58c26d4324</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-05 20:04:46</sys_created_on>
+        <sys_id>3522f46247772110bfd33e58c26d43c8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18927a845b20000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-05 20:04:46</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>7d22f46297772110f6122d5e5fe010c7</update_guid>
+        <update_guid_history>7d22f46297772110f6122d5e5fe010c7:-1637528386,9022f4628f772110d1d32513b7ec3820:1242923965,2ef1b06233772110aa4bb2152c666122:-1648432054,7be1f062ea772110371987eb257285c8:1675618386</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">d152786247772110bfd33e58c26d43db</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-05 20:05:33</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>a28813f8e23347d9819b7663a9543b01</sys_id>
+        <sys_metadata>afe1f06247772110bfd33e58c26d43c6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="City Hub" source="x_1070059_city_hub">dc39f31a47732110bfd33e58c26d4321</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="City Hub">dc39f31a47732110bfd33e58c26d4321</sys_scope>
+        <sys_scope_delete display_value="">47c107940aeb4f4082f8795c5ddd9000</sys_scope_delete>
+        <sys_update_name>sp_instance_afe1f06247772110bfd33e58c26d43c6</sys_update_name>
+        <sys_update_version display_value="sp_instance_afe1f06247772110bfd33e58c26d43c6">3522f46247772110bfd33e58c26d43c8</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-05 20:05:33</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

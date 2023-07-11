@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_column">
+    <sp_column action="DELETE">
+        <class_name/>
+        <order>4</order>
+        <size>3</size>
+        <size_lg/>
+        <size_sm/>
+        <size_xs/>
+        <sp_row display_value="2">72d2b54447c03110bfd33e58c26d4368</sp_row>
+        <sys_class_name>sp_column</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-10 16:38:21</sys_created_on>
+        <sys_id>4bd2b54447c03110bfd33e58c26d436f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>4</sys_name>
+        <sys_package display_value="City Hub" source="x_1070059_city_hub">dc39f31a47732110bfd33e58c26d4321</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="City Hub">dc39f31a47732110bfd33e58c26d4321</sys_scope>
+        <sys_update_name>sp_column_4bd2b54447c03110bfd33e58c26d436f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-10 16:38:21</sys_updated_on>
+    </sp_column>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="City Hub">dc39f31a47732110bfd33e58c26d4321</application>
+        <file_path/>
+        <instance_id>f73e9ac9db55915842b321c405961988</instance_id>
+        <instance_name>dev131714</instance_name>
+        <name>sp_column_4bd2b54447c03110bfd33e58c26d436f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_column"><sp_column action="INSERT_OR_UPDATE"><class_name/><order>4</order><size>3</size><size_lg/><size_sm/><size_xs/><sp_row display_value="2">72d2b54447c03110bfd33e58c26d4368</sp_row><sys_class_name>sp_column</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-07-10 16:38:21</sys_created_on><sys_id>4bd2b54447c03110bfd33e58c26d436f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>4</sys_name><sys_package display_value="City Hub" source="x_1070059_city_hub">dc39f31a47732110bfd33e58c26d4321</sys_package><sys_policy/><sys_scope display_value="City Hub">dc39f31a47732110bfd33e58c26d4321</sys_scope><sys_update_name>sp_column_4bd2b54447c03110bfd33e58c26d436f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-07-10 16:38:21</sys_updated_on></sp_column></record_update>]]></payload>
+        <payload_hash>-1911115769</payload_hash>
+        <record_name>4</record_name>
+        <reverted_from/>
+        <source>1039f31a47732110bfd33e58c26d4324</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-10 16:38:21</sys_created_on>
+        <sys_id>43d2b54447c03110bfd33e58c26d4371</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18940ab180b0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-10 16:38:21</sys_updated_on>
+        <type>Column</type>
+        <update_guid>8bd2b54420c03110745bf9c952e00a70</update_guid>
+        <update_guid_history>8bd2b54420c03110745bf9c952e00a70:-1911115769</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="4">1284ca8447043110bfd33e58c26d43a5</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-10 17:55:35</sys_created_on>
+        <sys_db_object display_value="" name="sp_column">sp_column</sys_db_object>
+        <sys_id>31e427b1a05247108112c8037ffad211</sys_id>
+        <sys_metadata>4bd2b54447c03110bfd33e58c26d436f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>4</sys_name>
+        <sys_package display_value="City Hub" source="x_1070059_city_hub">dc39f31a47732110bfd33e58c26d4321</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="City Hub">dc39f31a47732110bfd33e58c26d4321</sys_scope>
+        <sys_scope_delete display_value="">47c107940aeb4f4082f8795c5ddd9000</sys_scope_delete>
+        <sys_update_name>sp_column_4bd2b54447c03110bfd33e58c26d436f</sys_update_name>
+        <sys_update_version display_value="sp_column_4bd2b54447c03110bfd33e58c26d436f">43d2b54447c03110bfd33e58c26d4371</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-10 17:55:35</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

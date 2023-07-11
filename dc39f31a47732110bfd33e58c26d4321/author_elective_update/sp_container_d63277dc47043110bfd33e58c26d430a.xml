@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container">
+    <sp_container action="DELETE">
+        <background_color/>
+        <background_image/>
+        <background_style>default</background_style>
+        <bootstrap_alt>false</bootstrap_alt>
+        <class_name/>
+        <container_class_name/>
+        <name>logged in - Container 1</name>
+        <order>1</order>
+        <sp_page display_value="logged_in">4a3277dc47043110bfd33e58c26d4307</sp_page>
+        <subheader>false</subheader>
+        <sys_class_name>sp_container</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-11 20:33:17</sys_created_on>
+        <sys_id>d63277dc47043110bfd33e58c26d430a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>logged in - Container 1</sys_name>
+        <sys_package display_value="City Hub" source="x_1070059_city_hub">dc39f31a47732110bfd33e58c26d4321</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="City Hub">dc39f31a47732110bfd33e58c26d4321</sys_scope>
+        <sys_update_name>sp_container_d63277dc47043110bfd33e58c26d430a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-11 20:33:17</sys_updated_on>
+        <title/>
+        <width>container</width>
+    </sp_container>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="City Hub">dc39f31a47732110bfd33e58c26d4321</application>
+        <file_path/>
+        <instance_id>f73e9ac9db55915842b321c405961988</instance_id>
+        <instance_name>dev131714</instance_name>
+        <name>sp_container_d63277dc47043110bfd33e58c26d430a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container"><sp_container action="INSERT_OR_UPDATE"><background_color/><background_image/><background_style>default</background_style><bootstrap_alt>false</bootstrap_alt><class_name/><container_class_name/><name>logged in - Container 1</name><order>1</order><sp_page display_value="logged_in">4a3277dc47043110bfd33e58c26d4307</sp_page><subheader>false</subheader><sys_class_name>sp_container</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-07-11 20:33:17</sys_created_on><sys_id>d63277dc47043110bfd33e58c26d430a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>logged in - Container 1</sys_name><sys_package display_value="City Hub" source="x_1070059_city_hub">dc39f31a47732110bfd33e58c26d4321</sys_package><sys_policy/><sys_scope display_value="City Hub">dc39f31a47732110bfd33e58c26d4321</sys_scope><sys_update_name>sp_container_d63277dc47043110bfd33e58c26d430a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-07-11 20:33:17</sys_updated_on><title/><width>container</width></sp_container></record_update>]]></payload>
+        <payload_hash>-488926301</payload_hash>
+        <record_name>logged in - Container 1</record_name>
+        <reverted_from/>
+        <source>1039f31a47732110bfd33e58c26d4324</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-11 20:33:17</sys_created_on>
+        <sys_id>de3277dc47043110bfd33e58c26d430b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18946a88a110000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-11 20:33:17</sys_updated_on>
+        <type>Container</type>
+        <update_guid>1a3277dc6c043110651ca74cc027d30b</update_guid>
+        <update_guid_history>1a3277dc6c043110651ca74cc027d30b:-488926301</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="logged in - Container 1">7384fb5047443110bfd33e58c26d4350</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-11 20:43:30</sys_created_on>
+        <sys_db_object display_value="" name="sp_container">sp_container</sys_db_object>
+        <sys_id>018dc803e447464c80201777624b9a90</sys_id>
+        <sys_metadata>d63277dc47043110bfd33e58c26d430a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>logged in - Container 1</sys_name>
+        <sys_package display_value="City Hub" source="x_1070059_city_hub">dc39f31a47732110bfd33e58c26d4321</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="City Hub">dc39f31a47732110bfd33e58c26d4321</sys_scope>
+        <sys_scope_delete display_value="">47c107940aeb4f4082f8795c5ddd9000</sys_scope_delete>
+        <sys_update_name>sp_container_d63277dc47043110bfd33e58c26d430a</sys_update_name>
+        <sys_update_version display_value="sp_container_d63277dc47043110bfd33e58c26d430a">de3277dc47043110bfd33e58c26d430b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-11 20:43:30</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

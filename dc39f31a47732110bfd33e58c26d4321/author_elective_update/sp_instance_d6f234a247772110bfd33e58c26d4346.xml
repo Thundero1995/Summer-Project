@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css> .card-thumbnail-align-center {&#13;
+    background-repeat: no-repeat;&#13;
+    background-size: contain;&#13;
+}&#13;
+&#13;
+.link-container .title {&#13;
+display:none;&#13;
+visibility: hidden;&#13;
+   &#13;
+}&#13;
+.content-container {&#13;
+display:none;&#13;
+visibility: hidden;&#13;
+&#13;
+}&#13;
+&#13;
+.card-thumbnail-align-left {&#13;
+  display: flex;&#13;
+  flex-direction: row;&#13;
+  border: .1rem solid #B9C0C7;&#13;
+  box-sizing: border-box;&#13;
+  border-radius: .4rem;&#13;
+  padding: 4px 12px;&#13;
+  flex: 1;&#13;
+  justify-items: center;&#13;
+  word-wrap: break-word;&#13;
+  word-break: break-word;&#13;
+ // background: blue;&#13;
+}&#13;
+&#13;
+&#13;
+ &#13;
+&#13;
+.icon {&#13;
+  background-size: contain;&#13;
+  background-repeat: no-repeat;&#13;
+  position: relative;&#13;
+  top: 0.6rem;&#13;
+  left:-1.48rem;&#13;
+}&#13;
+&#13;
+.card-thumbnail-align-left.card-small {&#13;
+min-height: 3.1rem;&#13;
+max-height: 3.1rem;&#13;
+position: relative;&#13;
+top: -120%;&#13;
+background: $sample-sky-blue-lightest;&#13;
+}&#13;
+&#13;
+ .link-container {&#13;
+  background: #FFFFFF;&#13;
+  box-shadow:none;&#13;
+  border-radius: .6rem;&#13;
+  margin-bottom: 1.6rem;&#13;
+  min-width: min-content;&#13;
+}</css>
+        <glyph/>
+        <id/>
+        <order>9</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">81cb77da47732110bfd33e58c26d43a5</sp_column>
+        <sp_widget display_value="Copy of Quick Links">dd9788e647b32110bfd33e58c26d4338</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-05 20:08:21</sys_created_on>
+        <sys_id>d6f234a247772110bfd33e58c26d4346</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="City Hub" source="x_1070059_city_hub">dc39f31a47732110bfd33e58c26d4321</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="City Hub">dc39f31a47732110bfd33e58c26d4321</sys_scope>
+        <sys_update_name>sp_instance_d6f234a247772110bfd33e58c26d4346</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-10 14:17:26</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"title": {
+		"value": "",
+		"displayValue": ""
+	},
+	"card_type": {
+		"value": "Thumbnail",
+		"displayValue": "Thumbnail"
+	},
+	"card_size": {
+		"value": "Small",
+		"displayValue": "Small"
+	},
+	"text_alignment": {
+		"value": "Left",
+		"displayValue": "Left"
+	},
+	"show_icon": {
+		"value": "true",
+		"displayValue": "true"
+	},
+	"show_background": {
+		"value": "false",
+		"displayValue": "false"
+	},
+	"show_description": {
+		"value": "false",
+		"displayValue": "false"
+	},
+	"background_color": {
+		"value": "",
+		"displayValue": ""
+	},
+	"background_hexcode": {
+		"value": "",
+		"displayValue": ""
+	},
+	"icon_background_color": {
+		"value": "false",
+		"displayValue": "false"
+	},
+	"icon_background_hexcode": {
+		"value": "",
+		"displayValue": ""
+	},
+	"show_text_overlay": {
+		"value": "true",
+		"displayValue": "true"
+	},
+	"text_overlay_hexcode": {
+		"value": "",
+		"displayValue": ""
+	},
+	"text_color": {
+		"value": "false",
+		"displayValue": "false"
+	},
+	"text_color_hexcode": {
+		"value": "",
+		"displayValue": ""
+	},
+	"quick_links": {
+		"value": "09f2f46447732110bfd33e58c26d4380,2c13b86447732110bfd33e58c26d4379,3243b8e447732110bfd33e58c26d4395,3a70eb3b47a72110bfd33e58c26d4369,5f506b3b47a72110bfd33e58c26d4332,66e0f46447732110bfd33e58c26d4340,6723f4e447732110bfd33e58c26d4358,bdb0637b47a72110bfd33e58c26d43cb",
+		"displayValue": "Renew, Register, Virtual Agent, Request, Obtain, Find, Transfer, File"
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=d6f234a247772110bfd33e58c26d4346"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="City Hub">dc39f31a47732110bfd33e58c26d4321</application>
+        <file_path/>
+        <instance_id>f73e9ac9db55915842b321c405961988</instance_id>
+        <instance_name>dev131714</instance_name>
+        <name>sp_instance_d6f234a247772110bfd33e58c26d4346</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance"&gt;&lt;sp_instance action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css&gt; .card-thumbnail-align-center {&amp;#13;
+    background-repeat: no-repeat;&amp;#13;
+    background-size: contain;&amp;#13;
+}&amp;#13;
+&amp;#13;
+.link-container .title {&amp;#13;
+display:none;&amp;#13;
+visibility: hidden;&amp;#13;
+   &amp;#13;
+}&amp;#13;
+.content-container {&amp;#13;
+display:none;&amp;#13;
+visibility: hidden;&amp;#13;
+&amp;#13;
+}&amp;#13;
+&amp;#13;
+.card-thumbnail-align-left {&amp;#13;
+  display: flex;&amp;#13;
+  flex-direction: row;&amp;#13;
+  border: .1rem solid #B9C0C7;&amp;#13;
+  box-sizing: border-box;&amp;#13;
+  border-radius: .4rem;&amp;#13;
+  padding: 4px 12px;&amp;#13;
+  flex: 1;&amp;#13;
+  justify-items: center;&amp;#13;
+  word-wrap: break-word;&amp;#13;
+  word-break: break-word;&amp;#13;
+ // background: blue;&amp;#13;
+}&amp;#13;
+&amp;#13;
+&amp;#13;
+ &amp;#13;
+&amp;#13;
+.icon {&amp;#13;
+  background-size: contain;&amp;#13;
+  background-repeat: no-repeat;&amp;#13;
+  position: relative;&amp;#13;
+  top: 0.6rem;&amp;#13;
+  left:-1.48rem;&amp;#13;
+}&amp;#13;
+&amp;#13;
+.card-thumbnail-align-left.card-small {&amp;#13;
+min-height: 3.1rem;&amp;#13;
+max-height: 3.1rem;&amp;#13;
+position: relative;&amp;#13;
+top: -120%;&amp;#13;
+background: $sample-sky-blue-lightest;&amp;#13;
+}&amp;#13;
+&amp;#13;
+ .link-container {&amp;#13;
+  background: #FFFFFF;&amp;#13;
+  box-shadow:none;&amp;#13;
+  border-radius: .6rem;&amp;#13;
+  margin-bottom: 1.6rem;&amp;#13;
+  min-width: min-content;&amp;#13;
+}&lt;/css&gt;&lt;glyph/&gt;&lt;id/&gt;&lt;order&gt;9&lt;/order&gt;&lt;roles/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="1"&gt;81cb77da47732110bfd33e58c26d43a5&lt;/sp_column&gt;&lt;sp_widget display_value="Copy of Quick Links"&gt;dd9788e647b32110bfd33e58c26d4338&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-07-05 20:08:21&lt;/sys_created_on&gt;&lt;sys_id&gt;d6f234a247772110bfd33e58c26d4346&lt;/sys_id&gt;&lt;sys_mod_count&gt;8&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="City Hub" source="x_1070059_city_hub"&gt;dc39f31a47732110bfd33e58c26d4321&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="City Hub"&gt;dc39f31a47732110bfd33e58c26d4321&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_d6f234a247772110bfd33e58c26d4346&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-07-10 14:17:26&lt;/sys_updated_on&gt;&lt;title/&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"title": {
+		"value": "",
+		"displayValue": ""
+	},
+	"card_type": {
+		"value": "Thumbnail",
+		"displayValue": "Thumbnail"
+	},
+	"card_size": {
+		"value": "Small",
+		"displayValue": "Small"
+	},
+	"text_alignment": {
+		"value": "Left",
+		"displayValue": "Left"
+	},
+	"show_icon": {
+		"value": "true",
+		"displayValue": "true"
+	},
+	"show_background": {
+		"value": "false",
+		"displayValue": "false"
+	},
+	"show_description": {
+		"value": "false",
+		"displayValue": "false"
+	},
+	"background_color": {
+		"value": "",
+		"displayValue": ""
+	},
+	"background_hexcode": {
+		"value": "",
+		"displayValue": ""
+	},
+	"icon_background_color": {
+		"value": "false",
+		"displayValue": "false"
+	},
+	"icon_background_hexcode": {
+		"value": "",
+		"displayValue": ""
+	},
+	"show_text_overlay": {
+		"value": "true",
+		"displayValue": "true"
+	},
+	"text_overlay_hexcode": {
+		"value": "",
+		"displayValue": ""
+	},
+	"text_color": {
+		"value": "false",
+		"displayValue": "false"
+	},
+	"text_color_hexcode": {
+		"value": "",
+		"displayValue": ""
+	},
+	"quick_links": {
+		"value": "09f2f46447732110bfd33e58c26d4380,2c13b86447732110bfd33e58c26d4379,3243b8e447732110bfd33e58c26d4395,3a70eb3b47a72110bfd33e58c26d4369,5f506b3b47a72110bfd33e58c26d4332,66e0f46447732110bfd33e58c26d4340,6723f4e447732110bfd33e58c26d4358,bdb0637b47a72110bfd33e58c26d43cb",
+		"displayValue": "Renew, Register, Virtual Agent, Request, Obtain, Find, Transfer, File"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=d6f234a247772110bfd33e58c26d4346"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-349728086</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>1039f31a47732110bfd33e58c26d4324</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-10 14:17:26</sys_created_on>
+        <sys_id>ae92914447403110bfd33e58c26d4319</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>189402a13730000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-10 14:17:26</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>e692914408403110221ab720bd421119</update_guid>
+        <update_guid_history>e692914408403110221ab720bd421119:-349728086,25c36c3b6cf36110b91fee454d6543e8:-770853718,86b2ab1f73332110ce983dddf51bc715:-349728086,2cb26b1f86332110fb1bd5ad41585a7c:1265993035,76637ca2647721100d1a7e46c9ecc72e:-349728086,3b533ca25c772110a25ff7ba4fa75a40:891064270,de43346267772110186d402350ce0c01:1350059439,0233f862537721109c3f76b9de683a70:-517682268,def234a22f772110c2c39882fa0b1f47:22862402</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">08a44e8447043110bfd33e58c26d4361</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-10 17:55:59</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>1cd47191d31c4a3d85b165834e410da1</sys_id>
+        <sys_metadata>d6f234a247772110bfd33e58c26d4346</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="City Hub" source="x_1070059_city_hub">dc39f31a47732110bfd33e58c26d4321</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="City Hub">dc39f31a47732110bfd33e58c26d4321</sys_scope>
+        <sys_scope_delete display_value="">47c107940aeb4f4082f8795c5ddd9000</sys_scope_delete>
+        <sys_update_name>sp_instance_d6f234a247772110bfd33e58c26d4346</sys_update_name>
+        <sys_update_version display_value="sp_instance_d6f234a247772110bfd33e58c26d4346">ae92914447403110bfd33e58c26d4319</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-10 17:55:59</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

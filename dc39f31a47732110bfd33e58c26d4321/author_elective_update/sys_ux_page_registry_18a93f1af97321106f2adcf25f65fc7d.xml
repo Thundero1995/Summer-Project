@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_page_registry">
+    <sys_ux_page_registry action="DELETE">
+        <active>true</active>
+        <admin_panel>c8a93f1a47732110bfd33e58c26d433c</admin_panel>
+        <admin_panel_table>sys_ux_app_config</admin_panel_table>
+        <auth_routes>{"login":"login","logout": "login"}</auth_routes>
+        <page/>
+        <parent_app/>
+        <path>city-hub</path>
+        <root_macroponent display_value="Portal App Shell">b66bf1075b31101016fd7c1bf481c7a7</root_macroponent>
+        <sys_class_name>sys_ux_page_registry</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-07-05 15:57:53</sys_created_on>
+        <sys_id>18a93f1af97321106f2adcf25f65fc7d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>City Hub</sys_name>
+        <sys_package display_value="City Hub" source="x_1070059_city_hub">dc39f31a47732110bfd33e58c26d4321</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="City Hub">dc39f31a47732110bfd33e58c26d4321</sys_scope>
+        <sys_update_name>sys_ux_page_registry_18a93f1af97321106f2adcf25f65fc7d</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-07-05 15:57:53</sys_updated_on>
+        <title>City Hub</title>
+    </sys_ux_page_registry>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="City Hub">dc39f31a47732110bfd33e58c26d4321</application>
+        <file_path/>
+        <instance_id>f73e9ac9db55915842b321c405961988</instance_id>
+        <instance_name>dev131714</instance_name>
+        <name>sys_ux_page_registry_18a93f1af97321106f2adcf25f65fc7d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_page_registry"><sys_ux_page_registry action="INSERT_OR_UPDATE"><active>true</active><admin_panel>c8a93f1a47732110bfd33e58c26d433c</admin_panel><admin_panel_table>sys_ux_app_config</admin_panel_table><auth_routes>{"login":"login","logout": "login"}</auth_routes><page/><parent_app/><path>city-hub</path><root_macroponent display_value="Portal App Shell">b66bf1075b31101016fd7c1bf481c7a7</root_macroponent><sys_class_name>sys_ux_page_registry</sys_class_name><sys_created_by>system</sys_created_by><sys_created_on>2023-07-05 15:57:53</sys_created_on><sys_id>18a93f1af97321106f2adcf25f65fc7d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>City Hub</sys_name><sys_package display_value="City Hub" source="x_1070059_city_hub">dc39f31a47732110bfd33e58c26d4321</sys_package><sys_policy/><sys_scope display_value="City Hub">dc39f31a47732110bfd33e58c26d4321</sys_scope><sys_update_name>sys_ux_page_registry_18a93f1af97321106f2adcf25f65fc7d</sys_update_name><sys_updated_by>system</sys_updated_by><sys_updated_on>2023-07-05 15:57:53</sys_updated_on><title>City Hub</title></sys_ux_page_registry></record_update>]]></payload>
+        <payload_hash>-1834507936</payload_hash>
+        <record_name>City Hub</record_name>
+        <reverted_from/>
+        <source>31ccc71147332110bfd33e58c26d43d7</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2023-07-02 10:07:56</sys_created_on>
+        <sys_id>400a775a47732110bfd33e58c26d4328</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>1891612c4600000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>UX Application</type>
+        <update_guid>000a775a4e732110dedde24b28fdc928</update_guid>
+        <update_guid_history>000a775a4e732110dedde24b28fdc928:-1834507936</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-05 15:59:27</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_registry">sys_ux_page_registry</sys_db_object>
+        <sys_id>3378c48a3a6d42788ae816956484d210</sys_id>
+        <sys_metadata>18a93f1af97321106f2adcf25f65fc7d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>City Hub</sys_name>
+        <sys_package display_value="City Hub" source="x_1070059_city_hub">dc39f31a47732110bfd33e58c26d4321</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="City Hub">dc39f31a47732110bfd33e58c26d4321</sys_scope>
+        <sys_scope_delete display_value="">47c107940aeb4f4082f8795c5ddd9000</sys_scope_delete>
+        <sys_update_name>sys_ux_page_registry_18a93f1af97321106f2adcf25f65fc7d</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_registry_18a93f1af97321106f2adcf25f65fc7d">400a775a47732110bfd33e58c26d4328</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-05 15:59:27</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
