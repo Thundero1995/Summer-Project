@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function() {  /* widget controller */  var c = this;};]]></client_script>
+        <controller_as>c</controller_as>
+        <css>div{
+  height: 150vh;
+  width: 200px;
+  position: absolute;
+  left: -130%;
+  background-color: #f0f7fb;
+  padding: 30px;
+}
+
+ a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: #333333;
+}
+
+ a:hover {
+  background-color: #dddddd;
+}
+h5{
+color: $sample-cool-blue-light;
+font-size: 12px;
+font-family: Figtree;
+font-weight: 600;
+letter-spacing: 0.48px;
+text-transform: uppercase;
+}
+
+button{
+border-radius: 3px;
+border: 1px solid $sample-orange;
+background: $sample-orange;
+}
+
+h3{
+color: #FFF;
+text-align: center;
+
+/* Buttons &amp; Links */
+font-family: Figtree;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+a:hover, [accessibility] [role="button"]:hover, [accessibility] [tabindex="0"]:hover, [accessibility] input:hover {
+  outline: 0 !important;
+  color: $sample-orange;
+}</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id/>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>Copy of sidenav</name>
+        <option_schema/>
+        <public>true</public>
+        <roles/>
+        <script><![CDATA[(function() {  /* populate the 'data' object */  /* e.g., data.table = $sp.getValue('table'); */})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-05 20:24:43</sys_created_on>
+        <sys_id>4eb6f0a647772110bfd33e58c26d4368</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Copy of sidenav</sys_name>
+        <sys_package display_value="City Hub" source="x_1070059_city_hub">dc39f31a47732110bfd33e58c26d4321</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="City Hub">dc39f31a47732110bfd33e58c26d4321</sys_scope>
+        <sys_update_name>sp_widget_4eb6f0a647772110bfd33e58c26d4368</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-08 16:47:16</sys_updated_on>
+        <template><![CDATA[<div>
+  <h5>My Stuff</h5>
+  <a href="javascript:void(0)">  <img src ="Outcomes.png">&nbsp; Outcomes</a>
+  <a href="javascript:void(0)"> <img src ="x_1070059_testing.life.png">&nbsp;Life Events</a>
+  <a href="https://fridley.ce.eleyo.com/" target = "blank"> <img src ="x_1070059_testing.communities.png"> &nbsp;Communites</a>
+  
+  <h5>Topics</h5>
+  <a href="javascript:void(0)"> <img src ="life.svg"> &nbsp;Living</a>
+  <a href="javascript:void(0)"><img src ="x_1070059_testing.work.png"> &nbsp;Work</a>
+  <a href="javascript:void(0)"><img src ="x_1070059_testing.education.png"> &nbsp;Education</a>
+  <a href="javascript:void(0)"><img src ="x_1070059_testing.gov.png"> &nbsp;Government</a>
+  <a href="javascript:void(0)"><img src ="x_1070059_testing.explore.png"> &nbsp;Explore</a>
+  
+  <button> <h3>JOIN US</h3></button>
+</div>]]></template>
+    </sp_widget>
+</record_update>

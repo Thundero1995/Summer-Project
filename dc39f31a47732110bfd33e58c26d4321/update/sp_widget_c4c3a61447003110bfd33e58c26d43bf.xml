@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function() {  /* widget controller */  var c = this;};]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.btn {
+  width: 100%;
+
+}
+a{
+color: #FFF;
+text-align: center; 
+font-size: 18px;
+font-family: Figtree;
+font-weight: 700;
+border-radius: 5px;
+background: $brand-info;
+}</css>
+        <data_table>sp_instance</data_table>
+        <demo_data>{
+	"href": "www.google.com",
+	"button_text": "Go to google"
+}</demo_data>
+        <description/>
+        <docs/>
+        <field_list>color</field_list>
+        <has_preview>true</has_preview>
+        <id>city_hub_header_link</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>city hub header link</name>
+        <option_schema>[{"name":"href","section":"Presentation","label":"Link for button","type":"string"},{"name":"button_text","section":"Presentation","label":"Contents of button","type":"string"}]</option_schema>
+        <public>true</public>
+        <roles/>
+        <script><![CDATA[data.buttonMsg = gs.getMessage(options.button_text || "Click Here");
+data.socialQAEnabled = true;
+data.canReadKnowledgeBase = true;
+if (options.href == "?id=sqanda_new_question") {
+	data.socialQAEnabled = gs.getProperty('glide.sp.socialqa.enabled') === 'true';
+	data.knowledgeBase = $sp.getPortalRecord().getValue("sqanda_knowledge_base") || gs.getProperty("glide.service_portal.sqanda.default_kb");
+	data.canReadKnowledgeBase = $sp.canReadRecord("kb_knowledge_base", data.knowledgeBase);
+}]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-11 14:50:27</sys_created_on>
+        <sys_id>c4c3a61447003110bfd33e58c26d43bf</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>city hub header link</sys_name>
+        <sys_package display_value="City Hub" source="x_1070059_city_hub">dc39f31a47732110bfd33e58c26d4321</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="City Hub">dc39f31a47732110bfd33e58c26d4321</sys_scope>
+        <sys_update_name>sp_widget_c4c3a61447003110bfd33e58c26d43bf</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-11 15:07:23</sys_updated_on>
+        <template><![CDATA[<a ng-href="{{options.href}}" ng-if="data.socialQAEnabled && data.canReadKnowledgeBase">{{data.buttonMsg}}</a>
+<svg width="11" height="10" viewBox="0 0 11 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_926_54)">
+<path d="M8.9375 6.25H8.3125C8.22962 6.25 8.15013 6.28292 8.09153 6.34153C8.03292 6.40013 8 6.47962 8 6.5625V8.75H1.75V2.5H4.5625C4.64538 2.5 4.72487 2.46708 4.78347 2.40847C4.84208 2.34987 4.875 2.27038 4.875 2.1875V1.5625C4.875 1.47962 4.84208 1.40013 4.78347 1.34153C4.72487 1.28292 4.64538 1.25 4.5625 1.25H1.4375C1.18886 1.25 0.950403 1.34877 0.774587 1.52459C0.598772 1.7004 0.5 1.93886 0.5 2.1875L0.5 9.0625C0.5 9.31114 0.598772 9.5496 0.774587 9.72541C0.950403 9.90123 1.18886 10 1.4375 10H8.3125C8.56114 10 8.7996 9.90123 8.97541 9.72541C9.15123 9.5496 9.25 9.31114 9.25 9.0625V6.5625C9.25 6.47962 9.21708 6.40013 9.15847 6.34153C9.09987 6.28292 9.02038 6.25 8.9375 6.25ZM10.0312 0H7.53125C7.11387 0 6.90527 0.506055 7.19922 0.800781L7.89707 1.49863L3.13672 6.25723C3.09302 6.30078 3.05835 6.35252 3.03469 6.4095C3.01103 6.46648 2.99885 6.52756 2.99885 6.58926C2.99885 6.65095 3.01103 6.71204 3.03469 6.76902C3.05835 6.82599 3.09302 6.87774 3.13672 6.92129L3.57949 7.36328C3.62304 7.40698 3.67479 7.44165 3.73176 7.46531C3.78874 7.48897 3.84983 7.50115 3.91152 7.50115C3.97322 7.50115 4.0343 7.48897 4.09128 7.46531C4.14826 7.44165 4.20001 7.40698 4.24355 7.36328L9.00156 2.60391L9.69922 3.30078C9.99219 3.59375 10.5 3.38867 10.5 2.96875V0.46875C10.5 0.34443 10.4506 0.225201 10.3627 0.137294C10.2748 0.049386 10.1556 0 10.0312 0V0Z" fill="white"/>
+</g>
+<defs>
+<clipPath id="clip0_926_54">
+<rect width="10" height="10" fill="white" transform="translate(0.5)"/>
+</clipPath>
+</defs>
+</svg> ]]></template>
+    </sp_widget>
+</record_update>

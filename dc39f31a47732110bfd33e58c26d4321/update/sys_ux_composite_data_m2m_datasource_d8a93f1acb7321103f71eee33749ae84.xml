@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_data_m2m_datasource">
+    <sys_ux_composite_data_m2m_datasource action="INSERT_OR_UPDATE">
+        <dataset display_value="Custom Portal Landing - My Requests Dataset">d4a93f1abf732110c4027e264ab2c285</dataset>
+        <datasource display_value="My Request - Task Datasource">5ca93f1ae27321107b89ac82b345f784</datasource>
+        <sys_class_name>sys_ux_composite_data_m2m_datasource</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-07-05 15:57:52</sys_created_on>
+        <sys_id>d8a93f1acb7321103f71eee33749ae84</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="City Hub" source="x_1070059_city_hub">dc39f31a47732110bfd33e58c26d4321</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="City Hub">dc39f31a47732110bfd33e58c26d4321</sys_scope>
+        <sys_update_name>sys_ux_composite_data_m2m_datasource_d8a93f1acb7321103f71eee33749ae84</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-07-05 15:57:52</sys_updated_on>
+    </sys_ux_composite_data_m2m_datasource>
+</record_update>

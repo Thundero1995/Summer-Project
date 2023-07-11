@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_theme">
+    <sp_theme action="INSERT_OR_UPDATE">
+        <css_variables>$sample-cool-blue: #29485B;&#13;
+$sample-cool-blue-lightest: #D4DADE;&#13;
+$sample-cool-blue-lighter: #94A4AD;&#13;
+$sample-cool-blue-light: #546D7C;&#13;
+$sample-cool-blue-dark: #1D3240;&#13;
+&#13;
+$sample-orange: #F05D2E;&#13;
+$sample-orange-lightest: #FCDFD5;&#13;
+$sample-orange-lighter: #F8AE97;&#13;
+$sample-orange-light: #F37D58;&#13;
+$sample-orange-dark: #C04A25;&#13;
+&#13;
+$sample-slate: #8295A5;&#13;
+$sample-slate-lighter: #C1CAD2;&#13;
+$sample-slate-light: #A8B5C0;&#13;
+$sample-slate-dark: #687784;&#13;
+&#13;
+$sample-sky-blue: #6AAED9;&#13;
+$sample-sky-blue-lightest: #F0F7FB;&#13;
+$sample-sky-blue-lighter: #D2E7F4;&#13;
+$sample-sky-blue-light: #A6CEE8;&#13;
+$sample-sky-blue-dark: #406882;&#13;
+&#13;
+$sample-yellow: #F2B705;&#13;
+$sample-yellow-lightest: #FEF8E6;&#13;
+$sample-yellow-lighter: #FBE9B4;&#13;
+$sample-yellow-light: #F7D469;&#13;
+$sample-yellow-dark: #C29204;&#13;
+&#13;
+$sample-black: #102026;&#13;
+$sample-black-lightest: #B7BCBE;&#13;
+$sample-black-lighter: #70797D;&#13;
+$sample-black-light: #404D51;&#13;
+&#13;
+$sample-stone-gray: #506272;&#13;
+$sample-stone-gray-lightest: #DCE0E3;&#13;
+$sample-stone-gray-lighter: #B9C0C7;&#13;
+$sample-stone-gray-light: #85919C;&#13;
+$sample-stone-gray-dark: #404E5B;&#13;
+&#13;
+$brand-primary: $sample-cool-blue;&#13;
+$brand-secondary: $sample-orange;&#13;
+$brand-success: #38AD6E;&#13;
+$brand-info: #5f9dc3;&#13;
+$brand-warning: $sample-yellow;&#13;
+$brand-danger: #C02525;&#13;
+&#13;
+$link-color: $brand-info;&#13;
+$link-hover-color: $sample-cool-blue;&#13;
+&#13;
+$text-color: $sample-black;&#13;
+$text-muted: $sample-stone-gray-dark;&#13;
+&#13;
+$gray: $sample-stone-gray;&#13;
+$gray-lighter: $sample-stone-gray-lighter;&#13;
+$gray-light: $sample-stone-gray-light;&#13;
+$gray-dark: $sample-stone-gray-dark;&#13;
+$gray-darker: $sample-stone-gray-darker;&#13;
+&#13;
+/*HEADERS */&#13;
+&#13;
+h1{&#13;
+color: $sample-cool-blue-dark;&#13;
+font-size: 52px;&#13;
+font-family: Figtree;&#13;
+font-style: normal;&#13;
+font-weight: 700;&#13;
+line-height: 120%;&#13;
+}&#13;
+&#13;
+h2{&#13;
+color: $sample-cool-blue-dark;&#13;
+font-size: 45px;&#13;
+font-family: Figtree;&#13;
+font-style: normal;&#13;
+font-weight: 700;&#13;
+line-height: 120%;&#13;
+}&#13;
+&#13;
+h3{&#13;
+color: $sample-cool-blue-dark;&#13;
+font-size: 37px;&#13;
+font-family: Figtree;&#13;
+font-style: normal;&#13;
+font-weight: 700;&#13;
+line-height: 120%;&#13;
+}&#13;
+&#13;
+h4{&#13;
+color: $sample-cool-blue-dark;&#13;
+font-size: 32px;&#13;
+font-family: Figtree;&#13;
+font-style: normal;&#13;
+font-weight: 700;&#13;
+line-height: 120%;&#13;
+}&#13;
+&#13;
+h5{&#13;
+color: $sample-cool-blue-dark;&#13;
+font-size: 24px;&#13;
+font-family: Figtree;&#13;
+font-style: normal;&#13;
+font-weight: 700;&#13;
+line-height: 120%;&#13;
+letter-spacing: 0.48px;&#13;
+text-transform: uppercase;&#13;
+}&#13;
+&#13;
+h6{&#13;
+color: $sample-cool-blue-dark;&#13;
+font-size: 22px;&#13;
+font-family: Figtree;&#13;
+font-style: normal;&#13;
+font-weight: 700;&#13;
+line-height: 120%;&#13;
+}&#13;
+&#13;
+&#13;
+/*PARAGRAPH CONTENT */&#13;
+p.large{&#13;
+color: $sample-cool-blue-dark;&#13;
+font-size: 19px;&#13;
+font-family: Figtree;&#13;
+font-style: normal;&#13;
+font-weight: 400;&#13;
+line-height: normal;&#13;
+}&#13;
+&#13;
+p.base{&#13;
+color: $sample-cool-blue-dark;&#13;
+font-size: 16px;&#13;
+font-family: Figtree;&#13;
+font-style: normal;&#13;
+font-weight: 400;&#13;
+line-height: normal;&#13;
+}&#13;
+&#13;
+p.small{&#13;
+color: $sample-cool-blue-dark;&#13;
+font-size: 14px;&#13;
+font-family: Figtree;&#13;
+font-style: normal;&#13;
+font-weight: 400;&#13;
+line-height: normal;&#13;
+}&#13;
+&#13;
+&#13;
+/*BUTTONS AND LINKS */&#13;
+.butlin{&#13;
+color: $sample-cool-blue-dark;&#13;
+font-size: 16px;&#13;
+font-family: Figtree;&#13;
+font-style: normal;&#13;
+font-weight: 600;&#13;
+line-height: normal;&#13;
+}&#13;
+&#13;
+/* NAVIGATION*/&#13;
+&#13;
+nav{&#13;
+color: $sample-cool-blue-dark;&#13;
+font-size: 15px;&#13;
+font-family: Figtree;&#13;
+font-style: normal;&#13;
+font-weight: 600;&#13;
+line-height: normal;&#13;
+}&#13;
+&#13;
+nav.bold{&#13;
+color: $sample-cool-blue-dark;&#13;
+&#13;
+/* Nav Links: Bold */&#13;
+font-size: 15px;&#13;
+font-family: Figtree;&#13;
+font-style: normal;&#13;
+font-weight: 700;&#13;
+line-height: 23px;&#13;
+}&#13;
+</css_variables>
+        <footer display_value="Footer-Instance Security Center">30817eda53502300a699ddeeff7b1215</footer>
+        <footer_fixed>true</footer_fixed>
+        <header display_value="City Hub Header V2">0748a39347732110bfd33e58c26d4339</header>
+        <name>City Hub Theme2</name>
+        <navbar_fixed>true</navbar_fixed>
+        <sys_class_name>sp_theme</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-05 20:46:02</sys_created_on>
+        <sys_id>ca7b74aa47772110bfd33e58c26d4350</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>City Hub Theme2</sys_name>
+        <sys_package display_value="City Hub" source="x_1070059_city_hub">dc39f31a47732110bfd33e58c26d4321</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="City Hub">dc39f31a47732110bfd33e58c26d4321</sys_scope>
+        <sys_update_name>sp_theme_ca7b74aa47772110bfd33e58c26d4350</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-08 17:16:31</sys_updated_on>
+    </sp_theme>
+</record_update>

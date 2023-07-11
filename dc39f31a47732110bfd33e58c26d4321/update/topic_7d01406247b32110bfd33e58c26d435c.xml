@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="topic">
+    <topic action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <apply_to_child_topics>false</apply_to_child_topics>
+        <banner_image/>
+        <description/>
+        <icon>3101406247b32110bfd33e58c26d435f</icon>
+        <name>Ask our Virtual Agent</name>
+        <order/>
+        <parent_topic/>
+        <sys_class_name>topic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-05 16:30:08</sys_created_on>
+        <sys_id>7d01406247b32110bfd33e58c26d435c</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Ask our Virtual Agent</sys_name>
+        <sys_package display_value="City Hub" source="x_1070059_city_hub">dc39f31a47732110bfd33e58c26d4321</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="City Hub">dc39f31a47732110bfd33e58c26d4321</sys_scope>
+        <sys_update_name>topic_7d01406247b32110bfd33e58c26d435c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-05 16:30:09</sys_updated_on>
+        <taxonomy display_value="city hub">6d01cc2247b32110bfd33e58c26d434c</taxonomy>
+        <template display_value="emp_taxonomy_topic">4fb26c9cc3d030102ec1a589a840ddbd</template>
+        <topic_based_navigation>false</topic_based_navigation>
+        <topic_contributor/>
+        <topic_manager/>
+        <topic_path>Ask our Virtual Agent</topic_path>
+    </topic>
+    <sys_translated_text action="delete_multiple" query="documentkey=7d01406247b32110bfd33e58c26d435c"/>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color>#4e738c</average_image_color>
+        <chunk_size_bytes>700000</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/png</content_type>
+        <file_name>icon</file_name>
+        <hash>376eba7c5acb5bb56e1773f194d8d0a01c6f3a95fca90453167583c2e82e1cba</hash>
+        <image_height>48</image_height>
+        <image_width>67</image_width>
+        <size_bytes>1128</size_bytes>
+        <size_compressed>1151</size_compressed>
+        <state>available</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-05 16:30:08</sys_created_on>
+        <sys_id>3101406247b32110bfd33e58c26d435f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-05 16:30:08</sys_updated_on>
+        <table_name>ZZ_YYtopic</table_name>
+        <table_sys_id>7d01406247b32110bfd33e58c26d435c</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="icon" sys_id="3101406247b32110bfd33e58c26d435f">3101406247b32110bfd33e58c26d435f</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-05 16:30:08</sys_created_on>
+        <sys_id>7901406247b32110bfd33e58c26d435f</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>AWgEl/uJUE5HDQoaCgAAAA1JSERSAAAAQwAAADAIBgAAAEp8xxwAAAAJcEhZcwAACxMAAAsTAQCanBgAAAABc1JHQgCuzhzpAAAABGdBTUEAALGPC/xhBQAAA/1JREFUeAHtmT1MU1EYhj+MCT+SlMjQJv4N8uNkO1kMBBUTaRRwoDJSF5UEF3SAmLBIYkJIZCLRsNCygQwSMa0DKikBnFongTIgmJRBo0nDz4TnPe29/SigFc4tMTlP0vT20l7uec97vvOec/Outj3dJg0YOkYaEy0GQ4vB0GIwtBgMLQZDi8HQYjC0GAwtBuM4HQHFRQVkP2mjstN2+dlRWkLx7z8psbEl35dW1+goyJkYEKC+ykk1zkopAj7vBwSJLCxTcCZK0cVlyhU5EcN36wp56y79UQAOnOK5jJdTCjM0MUUhIYzVWCqGo9RGPW0twgmOHefR67HVOC2txCn+41f6+2LonD/jEO65IH+bvEYJdbU2UdkpO/nfTlFifZOsIs+qJTyGQn9Hq+mGxPoWjb2fpVeTn7JqEARsFm6COwwgYEf/sFWCDFkiBnp18Ml9U4hwZJ56h8cP1Ag4A6IaTrFQEGv2M7gj/G+mqPvlyIFvHjWjoz8gREjOMHCM72YtWYFyMXwNtbI3wdjknCh+H+mwSEGeB8R7sr54r7vJVX6OVKNcDE9VcozjxjELqCKxsUm9gdfm52pXJalGqRjVIkMYrvALR6ge15iFIqncwQurKpSKYSRKEBPTJgdZo/3ODbMQGjTXuanTd3vHbwECGs4jpHFQjEFxYcGu3xwWpTnDcAWIsUiNht1tSBY9jPV7zwblMZz0UAgEapwV1PioL3UdG3X5muSxp+oiNT7uM12G+sH/X0xhdM/JQo0nz+KiwvRxYT47LjC/l5lUEcYMUDusQqkY/Ea5SxClw9F52at+NruEZj/L9QfOD4yGzN6PrayJcDZnnue9z9Os6pqkdJjwOlEtbD8m0iaASN0vRvb8TW9gfM/zA6Pv5CsTV0V6So19U7u6VeqM6eiCjN3AimqPWmIUVMwsqp2hfJiEo1/ksUyKYgZRCRZ9BqFZ9atY5QUU1jbcgRlElUM6sXJN1QvUmeDMfyBGZlJMNuLgeQAzS8+DFlNUJFu/wmTLsWQ/AzMH3FFclC9v3pgN0LBsxzm+23zNvWNTCNfCoo1nDZVYIgZCFoQA4UiyhhgbPcgTEAtJEhs7a6mGocEnxN9c5WepTGzweOQ10nkDgmJGskoIoFwMNNpIm3AHCl3mtp+3zi1f2fCvm0KHQbkY7d56M3DBHXxvAxjD52/AARAyFyIYKBUDi66ajKU13/bzT3yQjUNwwsxgFy7i8TyxviH3RSOLXy0dDvuheKFm23UO4Wha1Iig6GWjh+VSfCF3jwCyRakY2OKTD4C2t+UDIew95MriKlAqBjJGMAfPN6xCP2tlaDEYWgyGFoOhxWBoMRhaDIYWg6HFYGgxGL8BBhm5AYUBVVsAAAAASUVORK5CYIKg/tHFaAQAAA==</data>
+        <length>1524</length>
+        <position>1</position>
+        <sys_attachment display_value="icon" sys_id="3101406247b32110bfd33e58c26d435f">3101406247b32110bfd33e58c26d435f</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-05 16:30:08</sys_created_on>
+        <sys_id>f901406247b32110bfd33e58c26d435f</sys_id>
+    </sys_attachment_doc>
+</record_update>

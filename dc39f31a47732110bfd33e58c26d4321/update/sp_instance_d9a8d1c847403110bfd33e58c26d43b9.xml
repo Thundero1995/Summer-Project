@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css>p{&#13;
+  color: $sample-slate;&#13;
+font-family: Figtree;&#13;
+font-size: 11px;&#13;
+font-style: normal;&#13;
+line-height: normal;&#13;
+    position: relative;&#13;
+  bottom: 12.5rem;&#13;
+  left: 6.25rem;&#13;
+&#13;
+}</css>
+        <glyph/>
+        <id/>
+        <order>12</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">43c1310447c03110bfd33e58c26d43ad</sp_column>
+        <sp_widget display_value="HTML">8679ef89cb21120000f8d856634c9c4f</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-10 14:43:49</sys_created_on>
+        <sys_id>d9a8d1c847403110bfd33e58c26d43b9</sys_id>
+        <sys_mod_count>20</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="City Hub" source="x_1070059_city_hub">dc39f31a47732110bfd33e58c26d4321</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="City Hub">dc39f31a47732110bfd33e58c26d4321</sys_scope>
+        <sys_update_name>sp_instance_d9a8d1c847403110bfd33e58c26d43b9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-10 16:47:05</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"html": {
+		"value": "<p>DOS</p>",
+		"displayValue": "<p>DOS</p>"
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=d9a8d1c847403110bfd33e58c26d43b9"/>
+</record_update>

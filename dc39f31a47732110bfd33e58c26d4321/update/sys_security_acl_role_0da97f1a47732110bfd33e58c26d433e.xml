@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-07-05 15:57:51</sys_created_on>
+        <sys_id>0da97f1a47732110bfd33e58c26d433e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>dca93f1a97732110d7047ef26d6bfb8c.snc_internal</sys_name>
+        <sys_package display_value="City Hub" source="x_1070059_city_hub">dc39f31a47732110bfd33e58c26d4321</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="City Hub">dc39f31a47732110bfd33e58c26d4321</sys_scope>
+        <sys_security_acl display_value="dca93f1a97732110d7047ef26d6bfb8c">14a93f1a2f7321103d4979115cd5a68d</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_0da97f1a47732110bfd33e58c26d433e</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-07-05 15:57:51</sys_updated_on>
+        <sys_user_role display_value="snc_internal" name="snc_internal">7fcaa702933002009c8579b4f47ffbde</sys_user_role>
+        <transaction_id>72997b1a47732110bfd33e58c26d435c</transaction_id>
+    </sys_security_acl_role>
+</record_update>

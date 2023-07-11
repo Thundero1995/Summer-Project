@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>2</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">81cb77da47732110bfd33e58c26d43a5</sp_column>
+        <sp_widget display_value="city hub header link">c4c3a61447003110bfd33e58c26d43bf</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-11 15:13:32</sys_created_on>
+        <sys_id>d2092a5847003110bfd33e58c26d4322</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="City Hub" source="x_1070059_city_hub">dc39f31a47732110bfd33e58c26d4321</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="City Hub">dc39f31a47732110bfd33e58c26d4321</sys_scope>
+        <sys_update_name>sp_instance_d2092a5847003110bfd33e58c26d4322</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-11 15:16:49</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"href": {
+		"value": "https://dev131714.service-now.com/ch2/?id=life_eventsv2",
+		"displayValue": "https://dev131714.service-now.com/ch2/?id=life_eventsv2"
+	},
+	"button_text": {
+		"value": "I am a parent.",
+		"displayValue": "I am a parent."
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=d2092a5847003110bfd33e58c26d4322"/>
+</record_update>

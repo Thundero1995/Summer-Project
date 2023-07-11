@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="topic">
+    <topic action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <apply_to_child_topics>false</apply_to_child_topics>
+        <banner_image/>
+        <description/>
+        <icon>b101406247b32110bfd33e58c26d434b</icon>
+        <name>Request</name>
+        <order/>
+        <parent_topic/>
+        <sys_class_name>topic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-05 16:30:08</sys_created_on>
+        <sys_id>fd01406247b32110bfd33e58c26d4348</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Request</sys_name>
+        <sys_package display_value="City Hub" source="x_1070059_city_hub">dc39f31a47732110bfd33e58c26d4321</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="City Hub">dc39f31a47732110bfd33e58c26d4321</sys_scope>
+        <sys_update_name>topic_fd01406247b32110bfd33e58c26d4348</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-05 16:30:09</sys_updated_on>
+        <taxonomy display_value="city hub">6d01cc2247b32110bfd33e58c26d434c</taxonomy>
+        <template display_value="emp_taxonomy_topic">4fb26c9cc3d030102ec1a589a840ddbd</template>
+        <topic_based_navigation>false</topic_based_navigation>
+        <topic_contributor/>
+        <topic_manager/>
+        <topic_path>Request</topic_path>
+    </topic>
+    <sys_translated_text action="delete_multiple" query="documentkey=fd01406247b32110bfd33e58c26d4348"/>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color>#557891</average_image_color>
+        <chunk_size_bytes>700000</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/png</content_type>
+        <file_name>icon</file_name>
+        <hash>58916ab8d285fa5ba9fbe48a05cf554b42d0b1fdcb32e217bba36d608cf0edb1</hash>
+        <image_height>48</image_height>
+        <image_width>67</image_width>
+        <size_bytes>776</size_bytes>
+        <size_compressed>778</size_compressed>
+        <state>available</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-05 16:30:08</sys_created_on>
+        <sys_id>b101406247b32110bfd33e58c26d434b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-05 16:30:08</sys_updated_on>
+        <table_name>ZZ_YYtopic</table_name>
+        <table_sys_id>fd01406247b32110bfd33e58c26d4348</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="icon" sys_id="b101406247b32110bfd33e58c26d434b">b101406247b32110bfd33e58c26d434b</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-05 16:30:08</sys_created_on>
+        <sys_id>f901406247b32110bfd33e58c26d434b</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>6wzwc+flkuJiYGDg9fRwCQLSzkBswMEGJL1qjssAKc4Cj8hiBgZuYRBmZJg1RwIoyFgc5O7EsO6czEsghyXd0deRgWFjP/efRFYGBqa5ni6OIRWMb2f6eogkShyX137RvECV/1yi60Jfa1M5Je6jl7obL6pyWz2p0mzxq+bW6ljkPN2sg2PR4V3p34VYJa8EiSxVt/1VKGjb8+AU12v1pn3nVxvbrVtn/OL3vsU//uj9Nj3P9+fZzPR/n/1ufl0nrn1AYaXygYoNPEynFdCIFq3HX1YKT/Apcfh22Lhje2zzBs7Qttp9XK+yVj35fW62b5DfjJbbkur94rV2R4y+Ses0HzDiQBBuKQk7urabNobWHfO4m2fJNmuj66EabSXzosereDtTpObc6cmPjVG5dO5rR1/p93n7mO9mvOd5/eZY4NZTyp/ijrz3CBbMm9u5Yl3ssfsHH/rOfaC+JILl0t+n5iLPxBzM3Vfrm9qz9+ro6nMrOl/IiP/Qp7fP7NbWoKBY363bde/N3rL9Sv4qd8GV6/cfYGBOXSanxGrrqsHmqvBMTslyZ82Dh50SYoqGs4ybuDidWZJsSn5ycnqzLLJJf1Cw524M/8ZTXbni2W7HZSvuf47l0pynuI7jz7uLc6/lvub+zP3BnefJvfrmBVJPjSZ1/hbojlKtP55qJ/LN6m8kV+XN0vCUiRwpdd8qla6puHr9Y4/r3LAsupBdc+rFqqP3Alu41bxYWm0qvl78bdfBIR5jfDbl95Rn/EuN7hy9q7BgQsQWpqpNfx/4PE29l5G/M8Yoc1esQ/hFab1rTu/rS5d3f6uePLcjNOrDjsfT3pdZKAclzVPgfSTCeal2t2KIpOPBPmvxWOkTJSvOnVvd+8Ir1eJy5QVGrh9fnjy89vfplXf+medO/HnBP8fg+ynzwkzZuTNYpmpMbZRk0J/OrJy8oPvQnUUyy2aEhiyuSTvR8lONl10wjlkVW5JYw8RTflVm0/QfoDTP4Onq57LOKaEJAJCwb30IAwAA</data>
+        <length>1024</length>
+        <position>1</position>
+        <sys_attachment display_value="icon" sys_id="b101406247b32110bfd33e58c26d434b">b101406247b32110bfd33e58c26d434b</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-05 16:30:08</sys_created_on>
+        <sys_id>7d01406247b32110bfd33e58c26d434b</sys_id>
+    </sys_attachment_doc>
+</record_update>

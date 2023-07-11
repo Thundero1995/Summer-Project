@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[function loginCtrl($scope, $http, $window, $location, glideUserSession, glideSystemProperties, spUtil) {
+
+	var c = this;
+	c.remember_me = c.data.forgetMeDefault;
+	c.data.url_suffix = $scope.portal ? $scope.portal.url_suffix : "";
+	c.masked = true;
+	if (!c.data.is_logged_in && c.data.multisso_enabled && c.data.default_idp) {
+		var pageId = $location.search().id || $scope.page.id;
+		var isLoginPage = $scope.portal.login_page_dv == pageId;
+		c.server.get({
+			action: "set_sso_destination",
+			pageURI: isLoginPage ? null : c.data.pageURI
+		}).then(function() {
+			$window.location = "/login_with_sso.do?glide_sso_id=" + c.data.default_idp;
+		});
+	} else if (!c.data.is_logged_in && c.data.certAuthRedirect && c.data.cert_based_auth && c.data.certHeader == "true") {
+        login(null, null, true);
+    }
+    
+    c.login = function(username, password, isCertLogin) {
+        login(username, password, isCertLogin);
+    };
+	
+	function login(username, password, isCertLogin) {
+		var url = spUtil.getURL({sysparm_type: 'view_form.login'});
+		
+		// If the page isn't public, then the ID in the
+		// URL won't match the rendered page ID
+		var pageId = $location.search().id || $scope.page.id;
+		var isLoginPage = $scope.portal.login_page_dv == pageId;
+
+		return $http({
+			method: 'post',
+			url: url,
+			data: $.param({
+				'sysparm_type': 'login',
+				'ni.nolog.user_password': true,
+				'remember_me': !!c.remember_me ? true : false,
+				'user_name': username,
+				'user_password': password,
+				'get_redirect_url': true,
+				'is_direct_redirect': true,
+				'sysparm_goto_url': isLoginPage ? null : $location.url(),
+				'mfa_redirect_url': isLoginPage ? null : c.data.pageURI,
+				'cert_login' : !!isCertLogin
+			}),
+			headers: {
+				'Content-Type': 'application/x-www-form-urlencoded'
+			}
+		}).then(function(response) {
+			if (!response.data) {
+				c.message = $scope.data.errorMsg;
+				return;
+			}
+
+			if (response.data.status == 'success') {
+				if (c.data.multiFactorAuthEnabled) {
+					c.server.get({
+						action: "multi_factor_auth_setup",
+						directTo: response.data.redirect_url
+					}).then(handleLoginResponse.bind(response), handleLoginResponse.bind(response));
+				} else {
+					handleLoginResponse.call(response);
+				}
+			} else if (response.data.status == 'mfa_code_required') {
+					$window.location = '/validate_multifactor_auth_code.do';
+			} else {
+				// wrong username or password
+				c.message = response.data.message;
+				c.password = "";
+				c.username = "";
+				angular.element("#username").focus();
+			}
+
+		}, function errorCallback(response) {
+			c.message = $scope.data.errorMsg;
+		});
+	};
+
+	c.oidcLogin = function(idProvider){
+		var pageId = $location.search().id || $scope.page.id;
+		var isLoginPage = $scope.portal.login_page_dv == pageId;
+		c.server.get({
+			action: "set_sso_destination",
+			pageURI: isLoginPage ? null : c.data.pageURI
+		}).then(function() {
+			$window.location = "/login_with_sso.do?glide_sso_id=" + idProvider;
+		});
+	};
+	
+	c.externalLogin = function() {
+		var pageId = $location.search().id || $scope.page.id;
+		var isLoginPage = $scope.portal.login_page_dv == pageId;
+		c.server.get({
+			action: "set_sso_destination",
+			pageURI: isLoginPage ? null : c.data.pageURI
+		}).then(function() {
+			glideSystemProperties.set("glide.authenticate.multisso.enabled", true);
+
+			glideUserSession.getSsoRedirectUrlForUsername(c.username)
+				.then(function(url) {
+					$window.location = url;
+				}, function(err) {
+					spUtil.addErrorMessage($scope.data.errorMsg2);
+				});
+		});
+	}
+
+	function handleLoginResponse() {
+		c.success = this.data.message;
+		$window.location = this.data.redirect_url;
+		if ($window.location.hash.length > 0)
+			$window.location.reload();
+	}
+
+	c.setExternalLogin = function(newVal) {
+		c.externalLoginMode = newVal;
+		if(!newVal)
+			c.masked = true;
+	}
+	
+	c.renderMaskIcon = function() {
+		var passwordEle = document.getElementById("password");
+		var maskEle = document.getElementById("mask_icon");
+		var btnDescription = document.getElementById("btnDescription");
+		var element = document.getElementsByClassName("mask_btn")[0];
+		var isPasswordType = passwordEle.type === 'password';
+		maskEle.classList.toggle('active', isPasswordType);
+		maskEle.setAttribute('data-original-title', (isPasswordType) ? 'Hide password' : 'Show password');
+		element.setAttribute('aria-label', (isPasswordType) ? 'Hide password' : 'Show password');
+		passwordEle.type  = (isPasswordType) ? 'text' : 'password';
+		btnDescription.textContent = (isPasswordType)? 'Password shown' : 'Password hidden';
+	}
+}]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.image{
+text-align:center;
+  padding:10px;
+ //
+}
+
+legend{
+color:#29485B;
+text-align: center;
+ padding:5px;
+
+/* H2 */
+font-family: Figtree;
+font-size: 45px;
+font-style: normal;
+font-weight: 700;
+line-height: 120%;
+}
+
+
+.header{
+  padding 10px;
+color: #29485B;
+text-align: center;
+/* P - Lg: Regular */
+font-family: Figtree;
+font-size: 19px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+#button1id{
+box-shadow:none;
+  padding-right:10px;
+  text-align:center;
+}
+
+#button2id{
+border-radius: 5px;
+border: 1px solid #F05D2E;
+background:#F05D2E;
+  padding-left:10px;
+  align-content:center;
+}
+
+// LINK FOR SIGN UP//
+.link{
+color:#F05D2E;
+}
+
+.col-md-4{
+border:none
+position:relative;
+  right:70px;
+</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>city_hub_loginv2</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>city hub loginV2</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+    options.show_panel = options.show_panel == "true" || options.show_panel == true;
+
+    if (input && input.action === "multi_factor_auth_setup") {
+        if (gs.getSession().getProperty("setup_multifactor_authn")) {
+            gs.getSession().putProperty("nav_to", input.directTo);
+            gs.getSession().putProperty("starting_page", input.directTo);
+            gs.getSession().putProperty("is_direct_redirect", "true");
+        }
+        return;
+    }
+
+    // We don't want to set a starting page until we've begun the login process.
+    if (input && input.action === "set_sso_destination") {
+        var gs_nav_to = gs.getSession().getProperty("nav_to");
+        gs.getSession().putProperty("nav_to", null);
+
+        if (input.pageURI) {
+            gs.getSession().putProperty("is_direct_redirect", "true");
+            gs.getSession().putProperty("starting_page", input.pageURI);
+        } else if (!gs.getSession().getProperty("starting_page") && gs_nav_to)
+            gs.getSession().putProperty("starting_page", gs_nav_to);
+        return;
+
+    }
+
+    // for self registration fields
+    var portalRecord = $sp.getPortalRecord();
+    var self_registration_field = portalRecord ? portalRecord.getValue("user_registration_config") : "";
+    if (self_registration_field) {
+        var registration_config = new GlideRecord("sys_user_registration_config");
+        registration_config.addActiveQuery();
+        registration_config.query('sys_id', self_registration_field);
+        if (registration_config.next()) {
+            var self_registration_record_producer = registration_config.getValue("record_producer");
+            var self_registration_label = registration_config.getValue("registration_label") || gs.getMessage("Sign Up");
+            data.self_registration_record_producer = self_registration_record_producer;
+            data.self_registration_label = self_registration_label;
+        }
+    }
+
+    //Enabling certificate based authentication per portal
+    if (portalRecord && (portalRecord.getValue('enable_certificate_based_authentication') == 1))
+        data.cert_based_auth = gs.getProperty('glide.authenticate.mutual.enabled', 'false') == 'true';
+    
+    //get the certificate header
+    if (data.cert_based_auth) {
+	var request = GlideTransaction.get().getRequest();
+	var certHeader = request.getHeader("X-Client-Cert");
+	if (!certHeader) {
+		data.certHeader = "false";
+            gs.log("Failed to register PIV/CAC certificate to the user account.");
+        } else
+		data.certHeader = "true";    
+    }
+
+    //Get the OpenID Connect type Identity provider which can be shown on the Portal login page.
+    data.isShowLoginWithIdps = false;
+    data.isMultiSSOActive = gs.getProperty('glide.authenticate.multisso.enabled', 'false') == 'true';
+    var gr = new GlideRecord("oidc_identity_provider");
+    if (data.isMultiSSOActive && gr.isValid()) {
+        var oidcUtil = new MultiSSO_OidcUtil();
+        data.oidcRecords = oidcUtil.getOidcIdpRecords();
+        data.isShowLoginWithIdps = (data.oidcRecords.length > 0);
+    }    
+        
+
+    //STRY50033370: Forgot Password link in the login widget
+    data.pswdResetUrl = gs.getProperty('glide.security.password_reset.uri');
+    data.forgotPwdLinkProp = gs.getProperty('glide.security.forgot_password.display.link');
+
+    data.errorMsg = gs.getMessage("There was an error processing your request");
+    data.errorMsg2 = gs.getMessage("An error has occurred - please contact your system administrator");
+    data.passwordMsg = gs.getMessage("Password");
+    data.usernameMsg = gs.getMessage("User name");
+    data.forgetMe = GlideProperties.getBoolean("glide.ui.forgetme");
+    data.forgetMeDefault = GlideProperties.getBoolean('glide.ui.remember.me.default', true);
+    data.is_logged_in = gs.getSession().isLoggedIn();
+    var bypass_sso = options.bypass_sso == "true";
+    data.multisso_enabled = !bypass_sso && GlideProperties.getBoolean("glide.authenticate.multisso.enabled");
+    data.default_idp = GlideProperties.get("glide.authenticate.sso.redirect.idp");
+    data.pageURI = new GlideSPUtil().getPageUri();
+    data.multiFactorAuthEnabled = GlideProperties.getBoolean('glide.authenticate.multifactor', false);
+    data.certAuthRedirect = gs.getProperty('glide.authenticate.cert.redirect.enable', 'false') == 'true';
+
+    //STRY53144967: Handle user redirection to specific Identity provider mapped in Custom Url record for Portals
+    var customURL = GlideProperties.getBoolean('glide.customurl.enabled', false);
+    if (customURL == true && data.multisso_enabled == true) {
+		var idp = SNC.CustomURLSPUtil.getAutoRedirectIDPForCustomURLWithPortal();
+		if(GlideStringUtil.notNil(idp))
+			data.default_idp = idp;
+    }
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-11 18:18:59</sys_created_on>
+        <sys_id>3673df5c47803110bfd33e58c26d43da</sys_id>
+        <sys_mod_count>64</sys_mod_count>
+        <sys_name>city hub loginV2</sys_name>
+        <sys_package display_value="City Hub" source="x_1070059_city_hub">dc39f31a47732110bfd33e58c26d4321</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="City Hub">dc39f31a47732110bfd33e58c26d4321</sys_scope>
+        <sys_update_name>sp_widget_3673df5c47803110bfd33e58c26d43da</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-11 20:07:46</sys_updated_on>
+        <template><![CDATA[<div ng-controller="loginCtrl">
+  <div class="image">
+    <img src="x_1070059_city_hub.Log in.png">
+  </div>
+  <div>
+    <form class="form-horizontal">
+      <fieldset>
+        <legend>Log In</legend>
+        <p class="header">
+          Don't have an account? <a href="https://www.w3schools.com"><span class="link">Sign up.</span></a>
+        </p>
+
+        <div class="form-group">
+          <label class="col-md-4 control-label" for="textinput"></label>
+          <div class="col-md-4">
+            <input id="textinput" name="textinput" type="text" placeholder="Username" class="form-control input-md" ng-model="c.username">
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label class="col-md-4 control-label" for="passwordinput"></label>
+          <div class="col-md-4">
+            <input id="passwordinput" name="passwordinput" type="{{c.masked ? 'password' : 'text'}}" placeholder="Password" class="form-control input-md" ng-model="c.password">
+            <span class="glyphicon glyphicon-eye-open mask_btn" id="mask_icon" ng-click="c.renderMaskIcon()" tabindex="0" data-toggle="tooltip" data-placement="right" data-original-title="Show password" aria-label="Show password"></span>
+            <span id="btnDescription">Password hidden</span>
+          </div>
+        </div>
+
+        <div class="form-group2">
+          <label class="col-md-4 control-label" for="button1id"></label>
+          <div class="col-md-8">
+            <button id="button1id" name="button1id" class="btn btn-inverse">Cancel</button>
+            <button id="button2id" name="button2id" class="btn btn-success" ng-click="c.login(c.username, c.password)">Log in</button>
+          </div>
+        </div>
+      </fieldset>
+    </form>
+  </div>
+
+</div>
+]]></template>
+    </sp_widget>
+</record_update>
